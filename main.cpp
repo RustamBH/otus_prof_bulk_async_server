@@ -14,7 +14,7 @@ std::mutex session_mutex;
 struct CfgConnect
 {
     unsigned short Port = 0;
-    std::size_t BulkSize = 0;
+    unsigned short BulkSize = 0;
 } cnt_Cfg;
 
 
