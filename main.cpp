@@ -106,7 +106,7 @@ int main(int argc, char* argv[]) {
     {
         if (argc != 3)
         {            
-            std::cerr << "Usage async_tcp_echo_server: " << argv[0] << " <port> <bulk_size>\n";
+            std::cerr << "Usage async_tcp_echo_bulk_server: " << argv[0] << " <port> <bulk_size>\n";
             return -1;
         }
 
